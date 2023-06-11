@@ -17,9 +17,9 @@ public class BoardPanel extends JPanel {
         Tile tile = null;
 
         int winDim = (this.getWidth() < this.getHeight()) ? this.getWidth() : this.getHeight();
-        int count  = (this.board.getColCount() > this.board.getRowCount()) ? this.board.getColCount() : this.board.getRowCount();
-        int dim    = winDim / count;
-        int rad    = (int)(dim / 4.0);
+        int count = (this.board.getColCount() > this.board.getRowCount()) ? this.board.getColCount() : this.board.getRowCount();
+        int dim = winDim / count;
+        int rad = (int)(dim / 4.0);
 
         int i, j;
 
