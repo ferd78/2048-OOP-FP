@@ -274,11 +274,6 @@ public class Game extends JFrame implements ActionListener
         new GameAlert("Game Over!");
     }
 
-    /**
-     * Executes functions for the save and quit buttons.
-     *
-     * @param e The ActionEvent containing information for the action.
-     */
     @Override
     public void actionPerformed(ActionEvent e)
     {
