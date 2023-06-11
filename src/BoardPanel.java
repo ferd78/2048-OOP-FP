@@ -20,7 +20,6 @@ public class BoardPanel extends JPanel {
         int count = (this.board.getColCount() > this.board.getRowCount()) ? this.board.getColCount() : this.board.getRowCount();
         int dim = winDim / count;
         int rad = (int)(dim / 4.0);
-
         int i, j;
 
         for (i = 0; i < this.board.getColCount(); i++) {
